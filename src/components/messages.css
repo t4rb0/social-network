@@ -1,0 +1,47 @@
+.messages__sender{
+    color:#6cc1d9;
+    font-size:30px;
+    text-decoration:none;
+    font-weight:bold;
+
+    }
+.messages{
+    padding:20px 30px;
+    width:50%;
+    position:relative;
+}
+.messages__sender::before{
+    content:url("../images/profile.svg");
+    padding:10px;
+}
+.messages__hr{
+    margin-top:20px;
+    width:100%;
+    margin:30px auto;
+}
+.messages__msg{
+    font-size:20px;
+    margin-left:30px;
+    padding-top:20px;
+}
+.profile1{
+    border:3px solid black;
+    grid-area:profile;
+    background-color:#4b4c52;
+    border-radius:10px;
+    padding:15px;
+    color:white;
+}
+.msg__profile-info{
+    position:absolute;
+    scale:0;
+    top:0;
+    right:0;
+    transition:0.6s;
+    transform:translateX(120%);
+}
+.messages:hover  .msg__profile-info{
+    scale:1;
+    top:15%;
+    right:10%;
+}

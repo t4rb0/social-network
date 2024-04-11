@@ -1,0 +1,16 @@
+.message__name::before{
+    content:url("./images/profile.svg");
+    padding:10px;
+}
+.message__name{
+    color:#6cc1d9;
+    font-size:30px;
+}
+.message__text{
+    padding-left:50px;
+    color:white;
+    font-size:24px;
+}
+.messanger__message{
+    margin-bottom:20px;
+}
